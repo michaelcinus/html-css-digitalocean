@@ -1,0 +1,46 @@
+/* general predisposition */
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #33475b;
+  }
+
+  /* HEADER */
+   /* NAVBAR */
+  
+
+   .navbar-default .navbar-nav > li > a{
+      color: hsl(221,93%,16%); 
+   }
+
+   .navbar-default .navbar-nav > li > a:hover{
+       color: #006aff;
+   }
+
+   .navbar-brand img{
+       height: 100%;
+       width: auto;
+   }
+
+
+   .btn-group .dropdown-toggle {
+       color: hsl(221,93%,16%);
+   }
+
+   .btn{
+       margin-top: 3%;
+       border-radius: 5px;
+       border: solid 1px #006aff;
+       color: #006aff;
+       background-color: transparent;
+   }
+
+   .btn:hover ,
+   .btn:hover a{
+       background-color: #006aff ;
+       color: white;
+       text-decoration: none;
+   }
+
