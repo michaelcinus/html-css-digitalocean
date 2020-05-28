@@ -96,4 +96,15 @@
     float: left;
 }
 
+/* MAIN */
+/* CUSTOMERS */
+#customers{
+    background-color: rgb(243, 245, 249);
+    text-align: center;
+}
+
+#customers h4{
+    padding: 2% 0;
+}
+
 
