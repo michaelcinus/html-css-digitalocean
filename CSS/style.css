@@ -4,15 +4,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #33475b;
+    color: hsl(221,93%,16%);
+    font-family: 'Open Sans Condensed', sans-serif;
   }
 
-  /* HEADER */
-   /* NAVBAR */
-  
-
+/* HEADER */
+ /* NAVBAR */
    .navbar-default .navbar-nav > li > a{
       color: hsl(221,93%,16%); 
+      font-size: 1.3em;
    }
 
    .navbar-default .navbar-nav > li > a:hover{
@@ -29,7 +29,7 @@
        color: hsl(221,93%,16%);
    }
 
-   .btn{
+   nav .btn{
        margin-top: 3%;
        border-radius: 5px;
        border: solid 1px #006aff;
@@ -37,10 +37,63 @@
        background-color: transparent;
    }
 
-   .btn:hover ,
-   .btn:hover a{
+   nav .btn:hover ,
+   nav .btn:hover a{
        background-color: #006aff ;
        color: white;
        text-decoration: none;
    }
+
+  /* JUMBO */
+   #jumbo{
+       padding: 8% 0 5% 0;
+       background-image: url(../img/jumbo.svg);
+       background-size: 100%;
+   }
+
+   /* presentation */
+   #jumbo h1{
+       color: white;
+       font-size: 5.3em;
+   }
+
+   #jumbo p{
+    color: whitesmoke;
+    font-size: 2em;
+}
+
+/* form */
+#jumbo form{
+    background-color: white;
+    text-align: center;
+    padding: 5% 2%;
+    border-radius: 5px;
+}
+
+#jumbo button{
+    width: 100%;
+    margin: 1.5% 0;
+    font-size: 1.3em;
+}
+
+#jumbo-h2-blue{
+    padding-bottom: 2%;
+    color: #006aff;
+}
+
+.jumbo-btn1{
+    background-color: #006aff;
+    color: white;
+}
+
+.jumbo-btn2{
+    background-color: white;
+    color: grey;
+    box-shadow: 5px 5px 3px #dedede;
+}
+
+.jumbo-btn2 i{
+    float: left;
+}
+
 
