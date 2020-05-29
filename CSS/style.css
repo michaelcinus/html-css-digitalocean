@@ -202,9 +202,13 @@
 }
 
 .carousel .carousel-indicators li{
-    margin-top: 2%;
-    background-color: #006aff;
+    background-color: #00d7d2;
     border-color: #006aff;
+}
+
+
+.item{
+    height: 500px;
 }
 
 /* FEATURE */
@@ -242,6 +246,7 @@
     border-radius: 5px;
     padding-bottom: 10%;
     font-size: 1.2em;
+    height: 350px;
 }
 
 .carousel-inner > .item-carousel2 > img{
