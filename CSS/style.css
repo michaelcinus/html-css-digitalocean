@@ -1,11 +1,9 @@
 /* general predisposition */
 *{
-    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: 'Sailec-Bold','system-ui','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Helvetica Neue','Helvetica','Arial','sans-serif';
     color: hsl(221,93%,16%);
-    font-family: 'Open Sans Condensed', sans-serif;
   }
 
   @media (max-width: 991px) {
@@ -55,7 +53,6 @@
  /* NAVBAR */
    .navbar-default .navbar-nav > li > a{
       color: hsl(221,93%,16%); 
-      font-size: 1.3em;
    }
 
    .navbar-default .navbar-nav > li > a:hover{
@@ -98,12 +95,12 @@
    #jumbo h1{
        padding-top: 3% ;
        color: white;
-       font-size: 5.3em;
+       font-size: 4em;
    }
 
    #jumbo p{
     color: whitesmoke;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 /* form */
@@ -234,8 +231,20 @@
      color: white;
  }
 
+ .col-xs-6 h4{
+     opacity: 0.6;
+ }
+
  #regions a{
      color: #00d7d2;
+ }
+
+ #regions tr{
+     border-bottom: solid 1px white;
+ }
+
+ .border-regions{
+     border-bottom: solid 1px white;
  }
 
 /* CAROUSEL 2 */
@@ -246,7 +255,7 @@
     border-radius: 5px;
     padding-bottom: 10%;
     font-size: 1.2em;
-    height: 350px;
+    height: 370px;
 }
 
 .carousel-inner > .item-carousel2 > img{
@@ -314,13 +323,3 @@
       text-decoration: none;
       color: white;
   }
-
-
-
-
-
-
-
-
-
-
